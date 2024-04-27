@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: trial
+pool: trial
 
 steps:
 - task: Maven@4
